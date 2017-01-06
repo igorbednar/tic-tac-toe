@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+
+<body onload="onLoad()">
+<div>Player1:<span id="player1"></span></div>
+<div>Player2:<span id="player2"></span></div>
+<div>Current move:<span id="current-move"></span></div>
+<div id="message-box"></div>
+<br/>
+<div class="board-row">
+    <button id="cell0" class="board-cell" onclick="makeMove(0)">&nbsp;</button>
+<button id="cell1" class="board-cell" onclick="makeMove(1)">&nbsp;</button>
+<button id="cell2" class="board-cell" onclick="makeMove(2)">&nbsp;</button>
+</div>
+<div class="board-row">
+    <button id="cell3" class="board-cell" onclick="makeMove(3)">&nbsp;</button>
+<button id="cell4" class="board-cell" onclick="makeMove(4)">&nbsp;</button>
+<button id="cell5" class="board-cell" onclick="makeMove(5)">&nbsp;</button>
+</div>
+<div class="board-row">
+    <button id="cell6" class="board-cell" onclick="makeMove(6)">&nbsp;</button>
+<button id="cell7" class="board-cell" onclick="makeMove(7)">&nbsp;</button>
+<button id="cell8" class="board-cell" onclick="makeMove(8)">&nbsp;</button>
+</div>
+
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/client.js"></script>
+
+</body>
+
+</html>

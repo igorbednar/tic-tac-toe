@@ -1,0 +1,23 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "tic-tac-toe multiplayer game",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorbednar/tic-tac-toe.git"
+  },
+  "author": "Igor Bednarchik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/igorbednar/tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/igorbednar/tic-tac-toe#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.7.1"
+  }
+}
