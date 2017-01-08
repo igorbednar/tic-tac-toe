@@ -52,7 +52,7 @@ var handler = (io, socket) => {
 
     var moveResult = room.game.makeMove(socket.id, data.index);
     if (moveResult.result != 'IncorrectMove') {
-      io.to(currentRoom.id).emit('game_updated', {
+      io.to(room.id).emit('game_updated', {
         status: moveResult.result,
         index: moveResult.index,
         player: moveResult.player
